@@ -3,10 +3,13 @@
     margin: 0;
 }
 
+
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
+    width: 1440px;
+    height: 128px;
     background: #2E7BA2;
 }
 
@@ -35,4 +38,18 @@
 
 .cabecalho nav li a:hover {
     color: #000000;
+}
+
+#boasVindas {
+    width: 1440px;
+    height: 407px;
+}
+
+#container {
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    position: absolute;
+    width: 1440px;
+    height: 2193px;
+    left: 0px;
+    top: 534px;
 }
