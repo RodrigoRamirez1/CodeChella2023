@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    background: #2E7BA2;
+}
+
+.dimensaoImg {
+    height: 64px;
+    width: 233px;
+    margin: 32px 120px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding-right: 120px;
+    
+}
+
+.cabecalho nav li a {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.cabecalho nav li a:hover {
+    color: #000000;
+}
